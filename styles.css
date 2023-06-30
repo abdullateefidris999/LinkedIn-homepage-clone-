@@ -237,10 +237,12 @@ body {
 
     .item-adj{
         padding: 0 6px;
+        font-size: small;
     }
 
     .photos-p{
         margin-left: 0;
+        
     }
 }
 
