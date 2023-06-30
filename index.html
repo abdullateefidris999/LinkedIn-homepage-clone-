@@ -3,48 +3,350 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compactible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>linkedin homepage clone</title>
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-       <!-- Goggle fonts -->
+    <!-- Goggle fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- main css file -->
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2a8ef595ae.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 
+
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <a href="index.html" class="logo"><img src="img/logo.png"></a>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-white pb-0  fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/linkedin 2.jpg" alt="linkedin" class="linkedin-2"> 
+            </a>
+            <input class="form-control me-2 search-box" type="text" placeholder="🔎 Search">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <!-- Links -->
+            <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-2">
+                    <a class="nav-link " href="#">
+                        <i class="d-block text-center fa-solid fa-house"></i>
+                        <span class="small-font">Home</span>  
+                    </a>
+                    </li>
+
+                    <li class="nav-item px-2 ">
+                    <a class="nav-link" href="#">
+                        <i class="d-block text-center fa-solid fa-user-group"></i>
+                        <span class="small-font">My Network</span>
+                    </a>
+
+                    </li>
+
+                    <li class="nav-item px-2">
+                    <a class="nav-link" href="#">
+                        <i class=" d-block text-center fa-solid fa-briefcase"></i>
+                        <span class="small-font">Jobs</span>
+                    </a>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            <i class="d-block text-center fa-solid fa-message"></i>
+                        <span class="small-font">Messaging</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">
+                            <i class=" d-block text-center fa-solid fa-bell"></i>
+                        <span class="small-font">Notification</span>
+                        </a>
+                    </li>  
+                    
+                    <li class="nav-item px-2 nav-pic-border">
+                        <a class="nav-link" href="#">
+                            <img src="img/owner.jpg" alt="owner pic" class="d-block mb-0 nav-pic">
+                        <span class="small-font">Me</span>
+                        </a>
+                    </li>  
+
+                    <li class="nav-item px-2 navbar-right-margin">
+                        <a class="nav-link" href="#">
+                            <i class="d-block text-center fa-solid fa-bars"></i>
+                        <span class="small-font">For Business </span>
+                        </a>
+                    </li>  
+
+                
+                </ul>
+            </div>
+        
+        </nav>
+
+    </div>
+    <div class="row navbar-bmargin">
+        <div class="col-lg-3 col-md-4 left-side">
+            <!-- The top left Bar -->
+            <div class=" bars">
+                <img class="owner-pic mx-auto d-block" src="img/owner.jpg" alt="account owner">
+                <h4 class="text-center text-black">Fatima Ibrahim</h4>
+                <p class="text-center ">A software developer, Python|Java.</p>
+                <hr />
+
+                <p class="d-inline-block">Connections </p><span class="margin-left text-primary"> 150</span>
+                <p class="text-black">Connect with alumni</p>
+                <p class="d-inline-block">Who's viewed your profile </p><span class="mr text-primary">78</span>
+                <hr />
+
+                <p class="text-black">Access exclusive tools & insights.</p>
+                <p><i class="fa-solid fa-file me-2" style="color: #ffd43b;"></i></i>Try premium for free</p>
+                <p><i class="fa-solid fa-briefcase me-2" style="color: #813dff;"></i>My item</p>
+
+            </div>
+            <!-- Bottom left bar -->
+            <div class=" bars mt-2 p-3 fixed-div">
+                <p class="mt-3 text-black ">Recent</p>
+                <p><i class="fa-solid fa-computer me-2" style="color: #0b419d;"></i>Software/Technology U.S.A</p>
+                <p class="text-primary thick pt-3">Groups</p>
+                <p><i class="fa-solid fa-building-columns me-2" style="color: #bd3614;"></i>Mewar international
+                    university.</p>
+                <p class="mb-4 "><i class="fa-brands fa-python me-2" style="color: #6243d0;"></i>Python Developers</p>
+                <p class=" text-primary thick pt-3 d-inline-block">Events</p>
+                <p class="text-primary thick ">Followed Hashtag</p>
+                <hr />
+                <p class="text-center m-auto">Discover more</p>
+
+            </div>
+
         </div>
-        <div class="navbar-center">
-            <ul>
-                <li><a href="#"><img src="img/home.png"> <span>Home</span></a></li>
-                <li><a href="#"><img src="img/globe.png"> <span>Network</span></a></li>
-                <li><a href="#"><img src="img/briefcase.png"> <span>Jobs</span></a></li>
-                <li><a href="#"><img src="img/comment.png"> <span>Messaging</span></a></li>
-                <li><a href="#"><img src="img/bell.png"> <span>Notifications</span></a></li>
-            </ul>
-        </div> 
-        <div class="navbar-right">
-            <img src="img/blank-profile-picture-973460_640.png" class="nav-profile-img">
+        <!-- The middle part -->
+        <div class="col-lg-5 col-md-7">
+            <div class="  my-1">
+                <div class="bg-white start-post-radius ">
+                    <img class="search-pic mb-2" src="img/owner.jpg" alt="owner">
+                    <input type="text" class="w-75 radius" placeholder="start a post">
+                    <div class="pb-3">
+                        <span class="ps-4 pe-3 my-3"><i class="fa-regular fa-image me-2" style="color: #3f9d25;"></i>
+                            Photos</span>
+                        <span class="px-3 my-3"><i class="fa-sharp fa-solid fa-video me-2"
+                                style="color: #0d45a5;"></i>Video</span>
+                        <span class="px-3 my-3"><i class="fa-regular fa-calendar-days me-2"
+                                style="color: #8c521d;"></i>Events</span>
+                        <span class="px-3 my-3"><i class="fa-solid fa-pen-to-square me-2"
+                                style="color: #178bd3;"></i>Write article</span>
+                    </div>
+                </div>
+
+
+                <div class="bg-white  mt-3 container-fluid">
+                    <div class="heightd">
+                        <img class="post-pic " src="img/idris (2).jpg">
+                        <p class="d-inline text-"><span class="text-black">Abdullateef Idris</span> <span class="ms-2 small-font">likes this </span></p>
+                    </div>  
+
+                    <img class="search-pic float-start " src="https://qph.cf2.quoracdn.net/main-qimg-28cadbd02699c25a88e5c78d73c7babc" alt="python-image">
+                    <div  class="line-h mt-4">
+                        <p class="text-black ">Python Developers Community</p>
+                        <p class="small-font ">Gina Acosta Guitierrez</p>
+                   </div>    
+                    <p class="pt-2">Python List 🎮🚀</p>
+                    <p>All you need to know about python, different operation perform on list</p>
+                    <div class="ratio ratio-1x1">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9OeznAkyQz4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="py-4 px-4 ">
+                        <span><i class="fa-regular fa-thumbs-up fa-xl me-2" style="color: #4c545d;"></i>Like</span>
+                        <span><i class="fa-regular fa-comment fa-xl me-2" style="color: #4c545d;"></i>Comment</span>
+                        <span><i class="fa-sharp fa-solid fa-repeat fa-xl me-2" style="color: #4c545d;"></i>Repost</span>
+                        <span><i class="fa-solid fa-paper-plane fa-xl me-2" style="color: #4c545d;"></i>Send</span>
+                    </div>
+
+
+                </div>
+
+                <div class="bg-white  mt-3 container-fluid">
+                    <div class="heightd">
+                        <img class="post-pic " src="img/nanfwang.jpeg">
+                        <p class="d-inline text-"><span class="text-black">Nanfwang Mangvwat</span> <span class="ms-2 small-font">Repost this </span></p>
+                    </div>  
+
+                    <img class="search-pic float-start " src="https://media.licdn.com/dms/image/C4D0BAQGDQevTb_dCnA/company-logo_200_200/0/1663743772504?e=1695859200&v=beta&t=8CWUP9h8KJrpyYinDsP9gqBUbq4ExO5y9bc_8G6024s" alt="Heriot-image">
+                    <div  class="line-h mt-4">
+                        <p class="text-black ">Heriot-Watt university.</p>
+                        <p class="small-font ">Promoted</p>
+                   </div>    
+                    <p class="pt-2">Master degree 💻</p>
+                    <p>Apply to our MSc operation management which responds to the needs for operational management specialists across different industries and organisation.🛰🛰🌍 </p>
+                    <div class="ratio ratio-16x9">
+                        <img src="https://media.licdn.com/dms/image/sync/D4E10AQHlTd5XFJ-2TQ/image-shrink_800/0/1687180720341/MScOperationsManagementjpg?e=1688180400&v=beta&t=PZxk8msL0FbH9ijWGD3SNU6AemznlPKrjNpYhONvDm4" alt="operational-management-pic">
+                    </div>
+
+                    <div class="py-4 px-4 ">
+                        <span><i class="fa-regular fa-thumbs-up fa-xl me-2" style="color: #4c545d;"></i>Like</span>
+                        <span><i class="fa-regular fa-comment fa-xl me-2" style="color: #4c545d;"></i>Comment</span>
+                        <span><i class="fa-sharp fa-solid fa-repeat fa-xl me-2" style="color: #4c545d;"></i>Repost</span>
+                        <span><i class="fa-solid fa-paper-plane fa-xl me-2" style="color: #4c545d;"></i>Send</span>
+                    </div>
+
+
+                </div>
+
+                <div class="bg-white  mt-3 container-fluid">
+                    <div class="heightd">
+                        <img class="post-pic " src="img/ismail.jpeg">
+                        <p class="d-inline text-"><span class="text-black">Ismail Muhammad</span> <span class="ms-2 small-font">likes this </span></p>
+                    </div>  
+
+                    <img class="search-pic float-start " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTShrchjR6BQ2WQ20TgeS8cKwQYE5A22vv3CA&usqp=CAU" alt="mewar-image">
+                    <div  class="line-h mt-4">
+                        <p class="text-black ">Mewar International University.</p>
+                        <p class="small-font ">First indian university in africa.</p>
+                   </div>    
+                    <p class="pt-2">Admission is ongoing for Various degree programs  🌍</p>
+                    <p>Mewar International University (MIU) Nigeria with the vision of Education for Knowledge, Peace and Prosperity brings a blend of new and innovative education pedagogy, 
+                        situated in a surreal natural atmosphere spread across area of 150+ hectares of land, next to the metropolitan Federal Capital Territory Abuja.</p>
+                    <div class="ratio ratio-16x9">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOtkjs05JGAxanHCpJZFIvQzhTV4Ur1E0vg&usqp=CAU" alt="admisssion-pic">
+                    </div>
+
+                    <div class="py-4 px-4 ">
+                        <span><i class="fa-regular fa-thumbs-up fa-xl me-2" style="color: #4c545d;"></i>Like</span>
+                        <span><i class="fa-regular fa-comment fa-xl me-2" style="color: #4c545d;"></i>Comment</span>
+                        <span><i class="fa-sharp fa-solid fa-repeat fa-xl me-2" style="color: #4c545d;"></i>Repost</span>
+                        <span><i class="fa-solid fa-paper-plane fa-xl me-2" style="color: #4c545d;"></i>Send</span>
+                    </div>
+
+
+                </div>
+
+                <div class="bg-white  mt-3 container-fluid">
+                    <div class="heightd">
+                        <img class="post-pic " src="img/Hope.jpeg">
+                        <p class="d-inline text-"><span class="text-black">Hope Ayuba</span> <span class="ms-2 small-font">Commented on this </span></p>
+                    </div>  
+
+                    <img class="search-pic float-start " src="https://media.licdn.com/dms/image/D4E03AQHPvW86elPxRg/profile-displayphoto-shrink_100_100/0/1687950086599?e=1693440000&v=beta&t=Jz9kT55XZZczKCecdJgGCj4tRp0Yf0RF3U7AemzxWY4" alt="moti">
+                    <div  class="line-h mt-4">
+                        <p class="text-black ">John Issac</p>
+                        <p class="small-font ">Youth Leader at Hawassa City Misrak Sub City Prosperity Party Youth.</p>
+                   </div>    
+                    <p class="pt-3">Someone said "The ability to think long-term is the foundation of human success".🏆🥇</p>
+                    <p>For us to achieve sustainable developments we need to have an eco-friendly environment.👌</p>
+                    <div class="ratio ratio-16x9">
+                        <img src="https://media.licdn.com/dms/image/D4E22AQGdKejA01W29w/feedshare-shrink_2048_1536/0/1685779419245?e=1691020800&v=beta&t=Fc3X8FgNliQT0BeX4FLDDPN9Wx19wPp4DbbLpC6DEzA" alt="admisssion-pic">
+                    </div>
+
+                    <div class="py-4 px-4 ">
+                        <span><i class="fa-regular fa-thumbs-up fa-xl me-2" style="color: #4c545d;"></i>Like</span>
+                        <span><i class="fa-regular fa-comment fa-xl me-2" style="color: #4c545d;"></i>Comment</span>
+                        <span><i class="fa-sharp fa-solid fa-repeat fa-xl me-2" style="color: #4c545d;"></i>Repost</span>
+                        <span><i class="fa-solid fa-paper-plane fa-xl me-2" style="color: #4c545d;"></i>Send</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
         </div>
 
-    </nav>
-</body>
-<!--body>
-    < bootstrap js >
+        <div class="col-lg-3 col-md-0 col-sm-0">
+            <div class="bars half-lh">
+                <p class="text-black pt-3">Add to your feed</p>
+                <div class="p">
+                    <img class="search-pic floatp" src="img/javascript-logo-1 (2).png"  alt="javascript">
+                    <p class="text-black fs-5 pt-3">JavaScript</p>
+                    <p class="small-font">company. E-Learning</p>
+                    <button class="py-2 px-3 follow-btn">+Follow</button>
+                </div>
+
+                <div class="mt-3">
+                    <img class="search-pic floatp" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTShrchjR6BQ2WQ20TgeS8cKwQYE5A22vv3CA&usqp=CAU" alt="Mewar">
+                    <p class="text-black fs-5 pt-3">Mewar University</p>
+                    <p class="small-font">Academic Institution.</p>
+                    <button class="py-2 px-3 follow-btn">+ Follow</button>
+                </div>
+
+                <div class="mt-3">
+                    <img class="search-pic floatp" src="https://media.licdn.com/dms/image/C560BAQEnO_pL2vDxvA/company-logo_200_200/0/1632735167692?e=1695859200&v=beta&t=cnlHf6qF8p3CURyUy9pWpR8cqiOLc8RM-tpdgRf4mbk" alt="Punch">
+                    <p class="text-black fs-5 pt-3">Interswitch Group</p>
+                    <p  class="small-font">company. Information Technology</p>
+                    <button class="py-2 px-3 follow-btn">+ Follow</button>
+                </div>
+
+                <p class="recommendation">View all recommendation <i class="fa-solid fa-arrow-right fa-sm" style="color: #081121;"></i></p>
+            </div>
+
+            <div class="">
+                <div class="bars mt-2 ">
+                    <p class="small-font text-center ">Fatima unlock your full potential with Linkedin premium</p>
+                    <img class="owner-pic ms-4 " src="img/owner.jpg" alt="owner">
+                    <img class="linkedin-pic me-4" src="https://media.licdn.com/dms/image/C560EAQFihwHKJKl3rA/rightRail-logo-shrink_200_200/0/1663316364126?e=1688274000&v=beta&t=KX8pQAMljkmN3QbBRllyHWDqxzGYFlz-E2xjmo1QQJc" alt="Linkedin-premium-logo">
+                    <p class="text-center last-90">See who's viewed your profile in the last 90 days</p>
+                    <div>
+                        <button class="  Try-for-free-btn">Try for free!</button>
+                    </div>
+                    
+                    
+
+                </div>
+
+
+                <div class="footer-links small-font">
+                <span>About</span> 
+                <span>Accessibility</span>
+                <span>Help Center</span>
+                <span>Privacy & Terms <i class="fa-solid fa-caret-down" style="color: #121d30;"></i></span>
+                <span class="">Ad Choices</span>
+                <span>Advertising</span>
+                <span>Business Service <i class="fa-solid fa-caret-down" style="color: #121d30;"></i></span>
+                <span>Get the LinkedIn app</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"> </script>
-    < fontawesome >
-    <script src="https://kit.fontawesome.com/2a8ef595ae.js" crossorigin="anonymous"></script>
-</body!-->
+        crossorigin="anonymous"> 
+    </script>
+    
+    
+</body>
 
 </html>
