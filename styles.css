@@ -246,14 +246,13 @@ body {
     }
 }
 
-/* @media (min-width: 1024px) {
-    .fixed-div.fixed {
-      position: fixed;
-      top: 0;
-      left: 55px;
-      width: ;
-      z-index: 999;
-    }
-  } */
+@media (min-width: 1024px) {
+    
+    .fixed-div{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    
+      }
+  }
 
-  
